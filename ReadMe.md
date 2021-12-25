@@ -5,8 +5,11 @@
   docker-compose up
 
 node -v
+
 npm -v
+
 npm install -g @angular/cli
+
 ng -v
 
 ng new social_app_ui
