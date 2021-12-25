@@ -10,14 +10,19 @@ npm install -g @angular/cli
 ng -v
 
 ng new social_app_ui
+
 ng serve
 
 npm install bootstrap --save
 
 ng g class employee
+
 ng g component employee-list
+
 ng g service employee
+
 ng g component create-employee
+
 
 update ui/angular.json with  following line
 "outputPath": "../src/main/resources/public/",
